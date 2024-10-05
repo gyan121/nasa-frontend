@@ -1,8 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./app2";
+import Routing from "./routing";
 import reportWebVitals from "./reportWebVitals";
 import { GlobalStyles } from "styles";
+import "./styles/reset.css";
 import { Provider } from "react-redux";
 import { store } from "store";
 
@@ -13,7 +14,7 @@ root.render(
   <>
     <GlobalStyles />
     <Provider store={store}>
-      <App />
+      <Routing />
     </Provider>
   </>
 );

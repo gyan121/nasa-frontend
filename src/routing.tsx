@@ -2,7 +2,7 @@ import Apod from "pages/apod";
 import Home from "pages/home";
 import Rover from "pages/rover";
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 const App = () => {
   return (

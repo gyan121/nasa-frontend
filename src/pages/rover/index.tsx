@@ -37,8 +37,6 @@ const Rover = () => {
           .indexOf(searchByNameValue.toLocaleLowerCase()) > -1
     );
 
-    console.log(filtereData);
-
     setData(filtereData);
   };
 
@@ -56,6 +54,8 @@ const Rover = () => {
   const handleReset = () => {
     setData(images);
   };
+
+  console.log(isLoading);
 
   if (isLoading) {
     return (
